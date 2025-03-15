@@ -33,7 +33,7 @@ body {
    width: 50%;
    background-color: hsl(0, 0%, 100%);
    border-radius: 0 15px 15px 0;
-   height: 412px;
+   min-height: 412px;
 }
 .right p {
    font-size: 12px;
@@ -41,27 +41,44 @@ body {
 }
 .right .perfume {
    letter-spacing: 10px;
-   margin: 30px 20px 20px 20px;
-}
-.right .sentence {
-   line-height: 1.8;
-   margin: 30px 20px 20px 20px;
+   margin: 30px 20px 10px 20px;
 }
 .right h1 {
    margin: 0 20px 0;
 }
+.right .sentence {
+   line-height: 1.8;
+   margin: 20px 20px 20px 20px;
+}
 .right .price {
-
    display: flex;
    align-items: center;
+   margin-bottom: 10px;
 }
-.right .reduction{
+.price .reduction {
    font-size: 30px;
-   color:  hsl(158, 36%, 37%);
-   font-weight: 500;
+   color: hsl(158, 36%, 37%);
+   font-weight: 600;
    margin-left: 20px;
 }
-.right .regular{
+.price .regular {
    margin-left: 15px;
-   
+   text-decoration: line-through;
+}
+.right button {
+   cursor: pointer;
+   border-radius: 6px;
+   margin-left: 40px;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   padding: 10px;
+   width: 200px;
+   background: hsl(158, 36%, 37%);
+   color: white;
+   font-weight: 600;
+   outline: none;
+   border: none;
+}
+.right button:hover {
+   background-color: hsl(158, 42%, 18%);
 }
