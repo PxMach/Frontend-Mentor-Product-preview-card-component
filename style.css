@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+body {
+   font-family: "Montserrat", sans-serif;
+   background: hsl(30, 38%, 92%);
+}
+
+.content {
+   display: flex;
+   align-items: center;
+   width: 100%;
+   max-width: 550px;
+   margin: 150px auto;
+   border-radius: 15px;
+}
+
+/* Left Side */
+.content .left {
+   width: 50%;
+   height: 410px;
+}
+.content .left img {
+   width: 100%;
+   border-radius: 15px 0 0 15px;
+}
+
+/* Right Side */
+.content .right {
+   width: 50%;
+   background-color: hsl(0, 0%, 100%);
+   border-radius: 0 15px 15px 0;
+   height: 412px;
+}
+.right p {
+   font-size: 12px;
+   color: hsl(228, 12%, 48%);
+}
+.right .perfume {
+   letter-spacing: 10px;
+   margin: 30px 20px 20px 20px;
+}
+.right .sentence {
+   line-height: 1.8;
+   margin: 30px 20px 20px 20px;
+}
+.right h1 {
+   margin: 0 20px 0;
+}
+.right .price {
+
+   display: flex;
+   align-items: center;
+}
+.right .reduction{
+   font-size: 30px;
+   color:  hsl(158, 36%, 37%);
+   font-weight: 500;
+   margin-left: 20px;
+}
+.right .regular{
+   margin-left: 15px;
+   
+}
