@@ -44,11 +44,11 @@ body {
    margin: 30px 20px 10px 20px;
 }
 .right h1 {
-   margin: 0 20px 0;
+   margin: 0 10px 0;
 }
 .right .sentence {
    line-height: 1.8;
-   margin: 20px 20px 20px 20px;
+   margin: 20px 20px 10px 20px;
 }
 .right .price {
    display: flex;
@@ -104,16 +104,24 @@ body {
       width: 320px;
       height: 330px;
    }
-   .right h1 {
-      font-size: 25px;
+   .content .right p {
+      font-weight: 500;
    }
-   /* .price .reduction {
-      font-size: 20px;
+   .right h1 {
+      font-size: 27px;
+      margin: 0 20px 10px;
+   }
+   .right .perfume {
+      letter-spacing: 5px;
+   }
+
+   .price .reduction {
+      font-size: 30px;
       color: hsl(158, 36%, 37%);
-      font-weight: 600;
+      font-weight: 700;
       margin-left: 20px;
-   } */
-   /* .right button {
-      width: 100px;
-   } */
+   }
+   .right button {
+      width: 240px;
+   }
 }
