@@ -82,3 +82,38 @@ body {
 .right button:hover {
    background-color: hsl(158, 42%, 18%);
 }
+
+/* Media Querie */
+@media screen and (max-width: 400px) {
+   .content {
+      width: 100%;
+      max-width: 300px;
+      margin: 30px auto;
+   }
+   .content .left {
+      width: 100%;
+      height: 100%;
+   }
+   .content .left img {
+      width: 100%;
+      max-width: 300px;
+      height: 467px;
+   }
+   .content .right {
+      width: 100%;
+      max-width: 200px;
+   }
+   .right h1 {
+      margin: 0 20px 0;
+      font-size: 25px;
+   }
+   .price .reduction {
+      font-size: 20px;
+      color: hsl(158, 36%, 37%);
+      font-weight: 600;
+      margin-left: 20px;
+   }
+   .right button {
+      width: 100px;
+   }
+}
