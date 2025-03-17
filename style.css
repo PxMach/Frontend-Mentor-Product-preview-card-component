@@ -1,131 +1,138 @@
 @import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600&display=swap");
 * {
-   padding: 0;
-   margin: 0;
-   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 body {
-   font-family: "Montserrat", sans-serif;
-   background: hsl(30, 38%, 92%);
+  font-family: "Montserrat", sans-serif;
+  background: hsl(30, 38%, 92%);
 }
 
 .content {
-   display: flex;
-   align-items: center;
-   width: 100%;
-   max-width: 550px;
-   margin: 150px auto;
-   border-radius: 15px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 550px;
+  margin: 150px auto;
+  border-radius: 15px;
 }
 
 /* Left Side */
 .content .left {
-   width: 50%;
-   height: 410px;
+  width: 50%;
+  height: 410px;
 }
 .content .left img {
-   width: 100%;
-   border-radius: 15px 0 0 15px;
-   object-fit: cover;
+  width: 100%;
+  border-radius: 15px 0 0 15px;
+  object-fit: cover;
 }
 
 /* Right Side */
 .content .right {
-   width: 50%;
-   background-color: hsl(0, 0%, 100%);
-   border-radius: 0 15px 15px 0;
-   height: 412px;
+  width: 50%;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0 15px 15px 0;
+  height: 412px;
 }
 .right p {
-   font-size: 12px;
-   color: hsl(228, 12%, 48%);
+  font-size: 12px;
+  color: hsl(228, 12%, 48%);
 }
 .right .perfume {
-   letter-spacing: 10px;
-   margin: 30px 20px 10px 20px;
+  letter-spacing: 10px;
+  margin: 30px 20px 10px 20px;
 }
 .right h1 {
-   margin: 0 10px 0;
-   font-family: 'Fraunces', serif;
+  margin: 0 10px 0;
+  font-family: "Fraunces", serif;
 }
 .right .sentence {
-   line-height: 1.8;
-   margin: 20px 20px 10px 20px;
+  line-height: 1.8;
+  margin: 20px 20px 10px 20px;
 }
 .right .price {
-   display: flex;
-   align-items: center;
-   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
 }
 .price .reduction {
-   font-family: 'Fraunces', serif;
-   font-size: 30px;
-   color: hsl(158, 36%, 37%);
-   font-weight: 600;
-   margin-left: 20px;
+  font-family: "Fraunces", serif;
+  font-size: 30px;
+  color: hsl(158, 36%, 37%);
+  font-weight: 600;
+  margin-left: 20px;
 }
 .price .regular {
-   margin-left: 15px;
-   text-decoration: line-through;
+  margin-left: 15px;
+  text-decoration: line-through;
 }
 .right button {
-   cursor: pointer;
-   border-radius: 6px;
-   margin-left: 40px;
-   margin-top: 10px;
-   margin-bottom: 20px;
-   padding: 10px;
-   width: 200px;
-   background: hsl(158, 36%, 37%);
-   color: white;
-   font-weight: 600;
-   outline: none;
-   border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-left: 40px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 200px;
+  background: hsl(158, 36%, 37%);
+  color: white;
+  font-weight: 600;
+  outline: none;
+  border: none;
+}
+.right button {
+  display: flex;
+  justify-content: center;
+}
+.right button img {
+  margin-right: 10px;
 }
 .right button:hover {
-   background-color: hsl(158, 42%, 18%);
+  background-color: hsl(158, 42%, 18%);
 }
 
 /* Media Querie */
 @media screen and (max-width: 600px) {
-   .content {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-   }
-   .content .left {
-      height: 230px;
-      width: 320px;
-   }
-   .content .left img {
-      height: 100%;
-      border-radius: 10px 10px 0 0;
-   }
-   .content .right {
-      border-radius: 0 0 10px 10px;
-      width: 320px;
-      height: 330px;
-   }
-   .content .right p {
-      font-weight: 500;
-   }
-   .right h1 {
-      font-size: 27px;
-      margin: 0 20px 10px;
-   }
-   .right .perfume {
-      letter-spacing: 5px;
-   }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .content .left {
+    height: 230px;
+    width: 320px;
+  }
+  .content .left img {
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  .content .right {
+    border-radius: 0 0 10px 10px;
+    width: 320px;
+    height: 330px;
+  }
+  .content .right p {
+    font-weight: 500;
+  }
+  .right h1 {
+    font-size: 27px;
+    margin: 0 20px 10px;
+  }
+  .right .perfume {
+    letter-spacing: 5px;
+  }
 
-   .price .reduction {
-      font-size: 30px;
-      color: hsl(158, 36%, 37%);
-      font-weight: 700;
-      margin-left: 20px;
-   }
-   .right button {
-      width: 240px;
-   }
+  .price .reduction {
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+    margin-left: 20px;
+  }
+  .right button {
+    width: 240px;
+  }
 }
